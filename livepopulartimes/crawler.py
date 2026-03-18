@@ -296,6 +296,7 @@ def get_populartimes_from_search(formatted_address, get_detail=False, proxy = Fa
             "place_types": index_get(info, 76),
             "current_popularity": index_get(info, 84, 7, 1),
             "popular_times": index_get(info, 84, 0),
+            "open": index_get(info,203,1,8,0),
         }
 
     # extract wait times and convert to minutes
