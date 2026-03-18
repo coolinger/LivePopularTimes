@@ -12,7 +12,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='LivePopularTimes',
-    version='1.3',
+    version='1.3+coolinger',
     description='LivePopularTimes: A Google Maps scraper',
     long_description=long_description,
     long_description_content_type='text/markdown',
